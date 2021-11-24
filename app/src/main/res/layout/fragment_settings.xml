@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    tools:context=".data.ui.fragments.Settings">
+
+    <com.fh.theposition.decoration.PaddingAwareConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+        <ImageView
+            android:background="?attr/selectableItemBackground"
+            android:padding="10dp"
+            app:srcCompat="@drawable/ic_arrow_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/navigate_back"
+            app:tint="@color/iconColor" />
+
+        <TextView
+            app:layout_constraintBottom_toBottomOf="@id/navigate_back"
+            android:layout_marginStart="10dp"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/navigate_back"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:visibility="invisible"
+            android:id="@+id/view_one"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/teal_200"
+            app:layout_constraintTop_toBottomOf="@id/title" />
+
+        <LinearLayout
+            android:background="@drawable/ripple_back"
+            android:id="@+id/theme_layout"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/view_one">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/theme"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/theme_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/theme"
+                android:textColor="@color/teal_700"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <View
+            android:id="@+id/view_two"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/teal_200"
+            app:layout_constraintTop_toBottomOf="@id/theme_layout" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:padding="10dp"
+            android:id="@+id/keep_screen_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/view_two">
+
+            <TextView
+                android:id="@+id/screen_on_text"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/keep_screen_on"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:textColor="@color/teal_700"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/screen_enable_disable"
+                app:layout_constraintTop_toBottomOf="@id/screen_on_text"
+                android:id="@+id/screen_on_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/screen_on_description"
+                />
+
+
+                <TextView
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:id="@+id/screen_enable_disable"
+                    app:layout_constraintStart_toEndOf="@id/screen_on_description"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="@string/enable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/view_three"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/teal_200"
+            app:layout_constraintTop_toBottomOf="@id/keep_screen_layout" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@drawable/ripple_back"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/update_app"
+            app:layout_constraintTop_toBottomOf="@id/view_three"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/app_version_text"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_version"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:textColor="@color/teal_700"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/app_version_text"
+                android:id="@+id/app_version"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View
+            android:id="@+id/view_four"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/teal_200"
+            app:layout_constraintTop_toBottomOf="@id/update_app" />
+    </com.fh.theposition.decoration.PaddingAwareConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

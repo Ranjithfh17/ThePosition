@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@android:color/transparent"
+    android:clipChildren="true"
+    tools:context=".data.ui.dialog.MapTypeDialog"
+    tools:targetApi="lollipop">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@drawable/dialog_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:elevation="40dp"
+        android:padding="30dp"
+        tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/type_normal_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/normal"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/type_normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioButton
+            android:id="@+id/type_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/type_hybrid_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hybrid"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/type_hybrid"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/type_normal_text"
+            app:layout_constraintTop_toTopOf="@id/type_hybrid" />
+
+        <RadioButton
+            android:id="@+id/type_hybrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/type_normal" />
+
+
+        <TextView
+            android:id="@+id/type_terrain_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/terrain"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/type_terrain"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/type_hybrid_text"
+            app:layout_constraintTop_toTopOf="@id/type_terrain" />
+
+        <RadioButton
+            android:id="@+id/type_terrain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/type_hybrid" />
+
+        <TextView
+            android:id="@+id/type_satellite_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/satellite"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/type_satellite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/type_terrain_text"
+            app:layout_constraintTop_toTopOf="@id/type_satellite" />
+
+        <RadioButton
+            android:id="@+id/type_satellite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/type_terrain" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

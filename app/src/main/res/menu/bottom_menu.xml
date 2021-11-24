@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/icon_home"
+        android:id="@+id/home2"
+        android:title="@string/home"
+        />
+    <item
+        android:icon="@drawable/icon_clock"
+        android:id="@+id/clock"
+        android:title="@string/clock" />
+    <item
+        android:icon="@drawable/icon_compass"
+        android:id="@+id/compass"
+        android:title="@string/compass" />
+    <item
+        android:icon="@drawable/icon_level"
+        android:id="@+id/level"
+        android:title="@string/level" />
+    <item
+        android:icon="@drawable/icon_map"
+        android:id="@+id/map2"
+        android:title="@string/map" />
+</menu>

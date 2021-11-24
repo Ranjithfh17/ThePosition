@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="colorAppAccent" format="color" />
+    <attr name="colorAppAccentLight" format="color" />
+    <attr name="colorAccentRipple" format="color" />
+
+    <declare-styleable name="SmoothBottomBar">
+        <attr name="menu" format="reference" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="indicatorColor" format="color" />
+        <attr name="indicatorRadius" format="dimension" />
+        <attr name="sideMargins" format="dimension" />
+        <attr name="itemPadding" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="itemFontFamily" format="reference" />
+        <attr name="textSize" format="dimension" />
+        <attr name="iconSize" format="dimension" />
+        <attr name="iconMargin" format="dimension" />
+        <attr name="iconTint" format="color" />
+        <attr name="iconTintActive" format="color" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="activeItem" format="integer" />
+        <attr name="duration" format="integer" />
+    </declare-styleable>
+
+    <attr name="SmoothBottomBarStyle" format="reference" />
+
+    <declare-styleable name="SparkLineLayout">
+        <attr name="s_line_color" format="color|reference" />
+        <attr name="s_line_second_color" format="color|reference" />
+        <attr name="s_line_thickness" format="dimension|reference" />
+        <attr name="s_line_bezier" format="float|reference" />
+        <attr name="s_gradient_line" format="boolean|reference" />
+
+        <attr name="s_split_line" format="boolean|reference" />
+        <attr name="s_split_ratio" format="float|reference" />
+        <attr name="s_split_left_color" format="color|reference" />
+        <attr name="s_split_right_color" format="color|reference" />
+
+        <attr name="s_marker_width" format="dimension|reference" />
+        <attr name="s_marker_height" format="dimension|reference" />
+        <attr name="s_marker_background_color" format="color|reference" />
+
+        <attr name="s_marker_border_color" format="color|reference" />
+        <attr name="s_marker_border_size" format="dimension|reference" />
+
+        <attr name="s_marker_circle_style" format="boolean|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="Speedometer">
+        <attr name="gradient_needle" format="boolean" />
+        <attr name="first_gradient_color" format="color" />
+        <attr name="colorful_needle" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DynamicCornerLayout">
+        <!-- At least one of them needs to be true else roundness will be applies to all corners
+                default is false for both of them -->
+        <attr name="roundTopCorners" format="boolean" />
+        <attr name="roundBottomCorners" format="boolean" />
+        <attr name="roundAllCorners" format="boolean" />
+    </declare-styleable>
+</resources>

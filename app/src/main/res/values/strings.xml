@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">The Position</string>
+
+    <string name="unit_id">ca-app-pub-7155475071347822/6425090084</string>
+    <!--clock-->
+    <string name="clock">Clock</string>
+    <string name="level">Level</string>
+
+
+    <!--compass-->
+    <string name="compass">Compass</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+
+
+    <!--calculate sun moon pos and time-->
+    <string name="sun_time">Sun Time</string>
+    <string name="sun_rise">Sunrise :</string>
+    <string name="sunset">Sunset :</string>
+    <string name="noon">Noon :</string>
+    <string name="nadir">Nadir :</string>
+    <string name="moon_time">Moon Time</string>
+    <string name="moon_rise">Moonrise :</string>
+    <string name="moon_set">Moonset :</string>
+    <string name="sun_position">Sun Position</string>
+    <string name="moon_position">Moon Position</string>
+    <string name="azimuth">Azimuth :</string>
+
+
+    <!-- Directions -->
+    <string name="north">North</string>
+    <string name="north_west">North West</string>
+    <string name="west">West</string>
+    <string name="south_west">South West</string>
+    <string name="south">South</string>
+    <string name="south_east">South East</string>
+    <string name="east">East</string>
+    <string name="north_east">North East</string>
+    <string name="north_N">N</string>
+    <string name="north_west_NW">NW</string>
+    <string name="west_W">W</string>
+    <string name="south_west_SW">SW</string>
+    <string name="south_S">S</string>
+    <string name="south_east_SE">SE</string>
+    <string name="east_E">E</string>
+    <string name="north_east_NE">NE</string>
+    <string name="not_available">not available</string>
+    <string name="altitude">Altitude :</string>
+    <string name="distance">Disatnce :</string>
+    <string name="kilometer">KM</string>
+    <string name="twilight">Twilight</string>
+    <string name="moon_illumination">Moon Illumination</string>
+    <string name="moon_dates">Moon Dates</string>
+    <string name="local_time">Local Time</string>
+    <string name="utc_time">UTC Time </string>
+    <string name="astronomicaldawn">Astronomical Dawn :</string>
+    <string name="nautical_dawn">Nautical Dawn :</string>
+    <string name="civil_dawn">Civil Dawn :</string>
+    <string name="civil_dusk">Civil Dusk :</string>
+    <string name="nautical_dusk">Nautical Dusk :</string>
+    <string name="astronomical_dusk">Astronomical Dusk :</string>
+    <string name="fraction">Fraction :</string>
+    <string name="angle">Angle :</string>
+    <string name="angle_state">Angle State :</string>
+    <string name="waxing">Waxing</string>
+    <string name="waning">Waning</string>
+    <string name="phase">Phase :</string>
+
+
+    <string name="waning_gibbous">Waning Gibbous</string>
+    <string name="waning_crescent">Waning Crescent</string>
+    <string name="waxing_gibbous">Waxing Gibbous</string>
+    <string name="waxing_crescent">Waxing Crescent</string>
+    <string name="full_moon">Full Moon :</string>
+    <string name="new_moon">New Moon :</string>
+    <string name="third_quarter">Third Quarter :</string>
+    <string name="first_quarter">First Quarter :</string>
+
+
+    <string name="phase_angle">Phase Angle :</string>
+    <string name="last_quarter">Last Quarter :</string>
+    <string name="location">Location</string>
+    <string name="coordinate">Coordinate</string>
+    <string name="address">Address</string>
+    <string name="accuracy">Accuracy :</string>
+    <string name="latitude">Latitude :</string>
+    <string name="longitude">Longitude :</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="good_after_noon">Good Afternoon</string>
+    <string name="good_night">Good Night</string>
+    <string name="time_zone">TimeZone :</string>
+    <string name="time_24hr">Time 24Hr :</string>
+    <string name="time_12hr">Time 12Hr :</string>
+    <string name="date">Date :</string>
+    <string name="day">Day :</string>
+    <string name="day_of_year">Day of year :</string>
+    <string name="week_of_year">Week of Year :</string>
+    <string name="local_time_offset">Local Time Offset :</string>
+    <string name="time">Time :</string>
+    <string name="welcome_message">Hi, welcome to the position app</string>
+    <string name="ask_name">May i know your name?</string>
+    <string name="name_hint">type your name</string>
+    <string name="settings">Settings</string>
+    <string name="theme">Theme</string>
+    <string name="todo">TODO</string>
+    <string name="keep_screen_on">Keep Screen On</string>
+    <string name="screen_on_description">Prevents the device from sleep while \n you are using the app</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="follow_system">Follow System</string>
+    <string name="auto_day_night">Auto(Day/Night)</string>
+    <string name="normal">Normal</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="terrain">Terrain</string>
+    <string name="satellite">Satellite</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="location_permission_denied">Location Permission Denied</string>
+    <string name="map">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <string name="level_text">Level %1$d</string>
+    <!-- -
+    This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+    For more information, see https://support.google.com/admob/answer/3052638
+<!- -->
+    <string name="interstitial_ad_unit_id">YOUR_INTERSTITIAL_AD_UNIT_ID</string>
+    <string name="lightTheme">LightTheme</string>
+    <string name="darkTheme">DarkTheme</string>
+    <string name="followSystem">FollowSystem</string>
+    <string name="auto">Auto</string>
+    <string name="app_version">App Version</string>
+    <string name="no_internet_connection_available">No Internet Connection Available</string>
+
+
+</resources>

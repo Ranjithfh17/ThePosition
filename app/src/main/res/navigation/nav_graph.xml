@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home2">
+    <action
+        android:id="@+id/service_to_map_fragment"
+        app:launchSingleTop="true"
+        app:destination="@id/map2"/>
+
+    <fragment
+        android:id="@+id/clock"
+        android:name="com.fh.theposition.data.ui.fragments.Clock"
+        android:label="Clock"
+        tools:layout="@layout/fragment_clock" />
+    <fragment
+        android:id="@+id/compass"
+        android:name="com.fh.theposition.data.ui.fragments.Compass"
+        android:label="Compass"
+        tools:layout="@layout/fragment_compass" />
+    <fragment
+        android:id="@+id/level"
+        android:name="com.fh.theposition.data.ui.fragments.Level"
+        android:label="Level"
+        tools:layout="@layout/fragment_level" />
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.fh.theposition.data.ui.fragments.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/map2"
+        android:name="com.fh.theposition.data.ui.fragments.Map"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/sampleMapFrag"
+        android:name="com.fh.theposition.data.ui.fragments.SampleMapFrag"
+        android:label="fragment_sample_map"
+        tools:layout="@layout/fragment_sample_map" />
+    <fragment
+        android:id="@+id/settings2"
+        android:name="com.fh.theposition.data.ui.fragments.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <dialog
+        android:id="@+id/mapTypeDialog"
+        android:name="com.fh.theposition.data.ui.dialog.MapTypeDialog"
+        android:label="fragment_map_type_dialog"
+        tools:layout="@layout/fragment_map_type_dialog" />
+</navigation>

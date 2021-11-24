@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#001833</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="lightGrey">#F7F7F7</color>
+    <color name="blue">#005BFF</color>
+
+
+    <color name="background">#F5FAFF</color>
+    <color name="background1">#FFFFFF</color>
+    <color name="textColor">#001833</color>
+    <color name="secondaryTextColor">#FF018786</color>
+    <color name="highlightTextColor">#005BFF</color>
+
+    <color name="infoColor">#F5FAFF</color>
+    <color name="startColor">#F5FAFF</color>
+    <color name="endColor">#c2e9fb</color>
+
+
+    <color name="iconColor">#001833</color>
+    <color name="iconBackColor">#F5FAFF</color>
+
+    <color name="whiteBackground">#FFFFFFFF</color>
+    <color name="compTextColor">#FF000000</color>
+    <color name="compLineColor">#001833</color>
+
+    <color name="clockHighLightColor">#005BFF</color>
+    <color name="compHighLightColor">#005BFF</color>
+    <color name="clockTextColor">#001833</color>
+    <color name="clockBackground">#FFFFFF</color>
+
+    <color name="enableColor">#F5FAFF</color>
+    <color name="disableColor">#FFFFFF</color>
+    <color name="bottomNavigationColor">#FFFFFF</color>
+
+
+    <color name="lightWhite">#f0ffff</color>
+    <color name="lightWhite1">#F5F6F8</color>
+    <color name="colorPrimary">#23272a</color>
+    <color name="colorPrimary1">#5023272a</color>
+    <color name="colorSecondary">#2c2f33</color>
+    <color name="colorAccent">#99aab5</color>
+    <color name="colorAccentDark">#6b7b85</color>
+    <color name="colorAccentDark1">#906b7b85</color>
+    <color name="SecondaryBlue">#7289da</color>
+    <color name="red">#e41749</color>
+
+
+
+
+    <color name="clock_needle_stroke_color">#FFFFFF</color>
+    <color name="clock_needle_fill_color">#001833</color>
+    <color name="clock_element_fill">#464646</color>
+    <color name="clock_face_color">#fff</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="needle_color">#005BFF</color>
+
+
+
+</resources>
